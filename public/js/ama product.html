@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="ama.css">
+    <style>
+    body {
+        background-image: url('https://3.bp.blogspot.com/-zka4TWwz3ZM/WjQjLhMVNrI/AAAAAAABT18/tpJM9Owjtwwqc-ZlMlUiBrxL8By3tF55wCLcBGAs/s1600/best-tech-accessories.jpg'); /* Specify the path to your background image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0; /* Remove default margin to ensure the background covers the entire body */
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="path/to/your/logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="ama home.html">Home</a></li>
+                <li><a href="ama product.html">Product</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="zz.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="container">
+    <div class="product-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+        <img class="product-image" src="https://m.media-amazon.com/images/I/61-ZYvldY+L._AC_UL480_FMwebp_QL65_.jpg" alt="Product 1">
+        <div class="product-info">
+            <div class="product-title">oneplus</div>
+            <div class="product-price">$19.99</div>
+            <div class="product-description">Airbuds.</div>
+          <a href="order.html"><button class="buy-button">Buy Now</button></a>  
+        </div>
+    </div>
+
+    <div class="product-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+        <img class="product-image" src="https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UL480_FMwebp_QL65_.jpg" alt="Product 2">
+        <div class="product-info">
+            <div class="product-title">Boat</div>
+            <div class="product-price">$24.99</div>
+            <div class="product-description">Over the head.</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+
+    <div class="product-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+        <img class="product-image" src="https://m.media-amazon.com/images/I/5171kgKguGL._AC_UL480_FMwebp_QL65_.jpg" alt="Product 3">
+        <div class="product-info">
+            <div class="product-title">Oneplus</div>
+            <div class="product-price">$29.99</div>
+            <div class="product-description">neckband</div>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+    <!-- ... (previous HTML code) ... -->
+
+<div class="product-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+    <img class="product-image" src="https://m.media-amazon.com/images/I/61oHDdlz9ZL._AC_UL480_FMwebp_QL65_.jpg" alt="Product 4">
+    <div class="product-info">
+        <div class="product-title">Realme</div>
+        <div class="product-price">$39.99</div>
+        <div class="product-description">wired headset</div>
+        <button class="buy-button">Buy Now</button>
+    </div>
+</div>
+
+<div class="product-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+    <img class="product-image" src="https://m.media-amazon.com/images/I/51Q8DUDT2eL._AC_UL480_FMwebp_QL65_.jpg" alt="Product 5">
+    <div class="product-info">
+        <div class="product-title">JBL</div>
+        <div class="product-price">$49.99</div>
+        <div class="product-description">Wired headset</div>
+        <button class="buy-button">Buy Now</button>
+    </div>
+</div>
+
+<div class="product-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+    <img class="product-image" src="https://m.media-amazon.com/images/I/61UW9gEiOSL._AC_UL480_FMwebp_QL65_.jpg" alt="Product 6">
+    <div class="product-info">
+        <div class="product-title">Realme</div>
+        <div class="product-price">$59.99</div>
+        <div class="product-description">wireless TWS</div>
+        <button class="buy-button">Buy Now</button>
+    </div>
+</div>
+
+<!-- ... (remaining HTML code) ... -->
+
+</div>
+
+<script>
+    function showDetails(card) {
+        card.style.boxShadow = "0 0 20px rgba(0, 0, 0, 0.2)";
+    }
+
+    function hideDetails(card) {
+        card.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.1)";
+    }
+</script>
+
+</body>
+</html>

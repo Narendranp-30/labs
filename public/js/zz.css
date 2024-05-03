@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+    #output {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  #toggleBtn {
+    background-color: #000000;
+    color: white;
+  }
+  #toggleBtn.stop {
+    background-color: #000000;
+  }
